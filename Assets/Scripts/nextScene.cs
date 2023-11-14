@@ -19,6 +19,7 @@ public class nextScene : MonoBehaviour
     }
     public void changeScene() 
     {
+        Debug.LogError("X");
         SceneManager.LoadScene(SceneName);
     }
 
