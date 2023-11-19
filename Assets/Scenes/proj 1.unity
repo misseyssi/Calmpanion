@@ -586,10 +586,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1222362159}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -800}
-  m_SizeDelta: {x: 1000, y: 900}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.00000095367, y: 321}
+  m_SizeDelta: {x: 807.1, y: 154.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &995062429
 MonoBehaviour:
@@ -634,7 +634,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 995062430}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1222362160}
+        m_TargetAssemblyTypeName: MainScreen, Assembly-CSharp
+        m_MethodName: MainScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &995062430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,7 +667,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2ee0328d0a919044d97a21e12ceda4e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fbe0524bd676d34498a5ce44b9436892, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -685,6 +697,7 @@ GameObject:
   - component: {fileID: 1222362158}
   - component: {fileID: 1222362157}
   - component: {fileID: 1222362156}
+  - component: {fileID: 1222362160}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -778,6 +791,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1222362160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222362155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd369c575f0d00142b493ff81a72bcdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainmenuScreen: Menu 1
 --- !u!1 &1487919836
 GameObject:
   m_ObjectHideFlags: 0
