@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class nextScene : MonoBehaviour
 {
-    public string SceneName;
+    public string menu1;
+    public string memories;
+    public string Diary;
+    public string FiveToOne;
+    public string Loading;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,9 +21,29 @@ public class nextScene : MonoBehaviour
     {
         
     }
-    public void changeScene() 
+    public void MenuScene()
     {
-        SceneManager.LoadScene(SceneName);
+        SceneManager.LoadScene(menu1);
+        
     }
+    public void MemoriesScene()
+    {
+        
+        SceneManager.LoadScene(memories);
+    }
+    public void DiaryScene()
+    {
 
+        SceneManager.LoadScene(Diary);
+    }
+    public void fivefourthreetwoOne()
+    {
+
+        SceneManager.LoadScene(FiveToOne);
+    }
+    public void LoadingScene()
+    {
+
+        SceneManager.LoadScene(Loading);
+    }
 }
