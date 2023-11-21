@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuoteButton : MonoBehaviour
 {
-    public Text quoteText;
+    public TMP_Text quoteText;
 
     private string[] quotes = {
         "It is not the mountain we conquer but ourselves. — Sir Edmund Hillary",

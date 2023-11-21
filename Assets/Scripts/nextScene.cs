@@ -10,6 +10,7 @@ public class nextScene : MonoBehaviour
     public string Diary;
     public string FiveToOne;
     public string Loading;
+    public string meditate;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,5 +46,10 @@ public class nextScene : MonoBehaviour
     {
 
         SceneManager.LoadScene(Loading);
+    }
+    public void meditateScene()
+    {
+
+        SceneManager.LoadScene(meditate);
     }
 }

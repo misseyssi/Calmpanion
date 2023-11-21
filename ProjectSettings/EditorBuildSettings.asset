@@ -6,33 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: 510d4771c4aa4bf4e8e5019ee82bc40a
+    path: Assets/Scenes/proj 1.unity
+    guid: 297366f0a888a054da513df85834e25a
   - enabled: 1
     path: Assets/Scenes/Menu 1.unity
     guid: 8ba3c5fb8e2692941a1e897bef423d2b
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Diaries/Diary.unity
     guid: 46fe2bc85f0b11b499979df41b563345
   - enabled: 1
     path: Assets/Scenes/Memories DI maayos ver..unity
+=======
+    path: Assets/Scenes/Memories.unity
+>>>>>>> f154fa41ebe353b3662798ba2e23fcd61b77a140
     guid: 9a62004260a0a57499805a8dd8ad7bf6
+  - enabled: 1
+    path: Assets/Scenes/Meditation.unity
+    guid: 403b0d55022320f4daf8a823591b04e9
+  - enabled: 1
+    path: Assets/Scenes/Diary.unity
+    guid: 46fe2bc85f0b11b499979df41b563345
   - enabled: 1
     path: Assets/Scenes/5-4-3-2-1/Five.unity
     guid: 4ad5bc1f5080aaf4b8ba5dcfaaf4813f
-  - enabled: 1
-    path: Assets/Scenes/5-4-3-2-1/four.unity
-    guid: 6da91a5d8e06d094d9f3fcac55e6a9e3
-  - enabled: 1
-    path: Assets/Scenes/5-4-3-2-1/three.unity
-    guid: 60690c641eff17a4e858ac386c699ce7
-  - enabled: 1
-    path: Assets/Scenes/5-4-3-2-1/two.unity
-    guid: fbdc5a2afe498314b80e6e4b89c1be54
-  - enabled: 1
-    path: Assets/Scenes/5-4-3-2-1/one.unity
-    guid: 91e6ead8d60baf046b42dafbb141a4d2
   m_configObjects: {}
