@@ -4,21 +4,30 @@ using UnityEngine;
 
 public class TonesButton : MonoBehaviour
 {
-    public AudioSource rainPlay;
-    // Start is called before the first frame update
+    public AudioSource rainSound;
+
+    // Use this for initialization
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        //so it doesn't play automatically
+        rainSound.Pause();
     }
 
     public void rainEffects()
     {
-        rainPlay.Play();
+        if (rainSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            rainSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            rainSound.Play();
+        }
+    }
+    public void OtherButtonEffects()
+    {
     }
 }
+        

@@ -5,21 +5,27 @@ using UnityEngine;
 public class Nature : MonoBehaviour
 {
     public AudioSource natureSound;
-
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-        
+        //so it doesn't play automatically
+        natureSound.Pause();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void natureeffects()
     {
-        
+        if (natureSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            natureSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            natureSound.Play();
+        }
     }
-
-    public void natureeffects ()
+    public void OtherButtonEffects()
     {
-        natureSound.Play();
     }
 }

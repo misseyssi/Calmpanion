@@ -6,20 +6,27 @@ public class s5 : MonoBehaviour
 {
     public AudioSource sonataSound;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        //so it doesn't play automatically
+        sonataSound.Pause();
     }
 
     public void sonataffects()
     {
-        sonataSound.Play();
+        if (sonataSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            sonataSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            sonataSound.Play();
+        }
+    }
+    public void OtherButtonEffects()
+    {
     }
 }

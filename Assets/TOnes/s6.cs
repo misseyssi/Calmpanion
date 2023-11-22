@@ -5,21 +5,27 @@ using UnityEngine;
 public class s6 : MonoBehaviour
 {
     public AudioSource dreamlandSound;
-
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        //so it doesn't play automatically
+        dreamlandSound.Pause();
     }
 
     public void dreamlandffects()
     {
-        dreamlandSound.Play();
+        if (dreamlandSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            dreamlandSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            dreamlandSound.Play();
+        }
+    }
+    public void OtherButtonEffects()
+    {
     }
 }

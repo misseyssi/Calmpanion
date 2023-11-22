@@ -6,20 +6,27 @@ public class s4 : MonoBehaviour
 {
     public AudioSource wNoiseSound;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        //so it doesn't play automatically
+        wNoiseSound.Pause();
     }
 
     public void wNoiseffects()
     {
-        wNoiseSound.Play();
+        if (wNoiseSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            wNoiseSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            wNoiseSound.Play();
+        }
+    }
+    public void OtherButtonEffects()
+    {
     }
 }

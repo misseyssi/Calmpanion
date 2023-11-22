@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a67c2f4d6025941bccf9ed2297dacc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rainPlay: {fileID: 305960268}
+  rainSound: {fileID: 305960268}
 --- !u!114 &513372205
 MonoBehaviour:
   m_ObjectHideFlags: 0

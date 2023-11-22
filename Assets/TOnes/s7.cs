@@ -5,20 +5,27 @@ public class WeAreButton : MonoBehaviour
 {
     public AudioSource WeAreSound;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        //so it doesn't play automatically
+        WeAreSound.Pause();
     }
 
     public void WeAreffects()
     {
-        WeAreSound.Play();
+        if (WeAreSound.isPlaying)
+        {
+            // If the audio is currently playing, stop it
+            WeAreSound.Stop();
+        }
+        else
+        {
+            // If the audio is not playing, start it
+            WeAreSound.Play();
+        }
+    }
+    public void OtherButtonEffects()
+    {
     }
 }
