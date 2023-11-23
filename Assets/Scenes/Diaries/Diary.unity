@@ -2858,7 +2858,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1366765270}
         m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: MenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2918,8 +2918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa6915cce3a8a44ca21290a92e6c773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu1: 
-  memories: 
+  menu1: Menu 1
   Diary: 
   FiveToOne: 
   Loading: 
