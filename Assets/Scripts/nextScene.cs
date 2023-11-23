@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class nextScene : MonoBehaviour
 {
     public string menu1;
-    public string memories;
     public string Diary;
     public string FiveToOne;
     public string Loading;
@@ -26,11 +25,6 @@ public class nextScene : MonoBehaviour
     {
         SceneManager.LoadScene(menu1);
         
-    }
-    public void MemoriesScene()
-    {
-        
-        SceneManager.LoadScene(memories);
     }
     public void DiaryScene()
     {
