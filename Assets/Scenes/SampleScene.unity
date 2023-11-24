@@ -237,7 +237,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1090, y: 2000}
+  m_SizeDelta: {x: 1090, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515059612
 MonoBehaviour:
@@ -454,7 +454,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 716912151}
         m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
-        m_MethodName: changeScene
+        m_MethodName: MenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -531,7 +531,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afa6915cce3a8a44ca21290a92e6c773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: menu
+  menu1: Menu 1
+  memories: Memories
+  Diary: Diary
+  FiveToOne: Five
+  Loading: SampleScene
 --- !u!4 &716912152
 Transform:
   m_ObjectHideFlags: 0
