@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tones.unity
     guid: 9a2a1a40a098e6f4faac33a63a295ad1
   - enabled: 1
+    path: Assets/Scenes/Menu 1.unity
+    guid: a0b15ebcc982fb44cbe605b06f5dd5a1
+  - enabled: 1
     path: Assets/Scenes/5-4-3-2-1/Five.unity
     guid: 4ad5bc1f5080aaf4b8ba5dcfaaf4813f
   m_configObjects: {}
