@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Meditation.unity
     guid: 403b0d55022320f4daf8a823591b04e9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Memories DI maayos ver..unity
     guid: 9a62004260a0a57499805a8dd8ad7bf6
   - enabled: 1
