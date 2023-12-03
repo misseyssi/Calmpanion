@@ -204,7 +204,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 110967360}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: fivefourthreetwoOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &110967360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -533,7 +545,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 174317876}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: meditateScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &174317876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,6 +1033,7 @@ GameObject:
   - component: {fileID: 646086682}
   - component: {fileID: 646086681}
   - component: {fileID: 646086680}
+  - component: {fileID: 646086683}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -1100,6 +1125,26 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &646086683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646086678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afa6915cce3a8a44ca21290a92e6c773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menu1: Menu 1
+  Diary: Diary&Memories
+  FiveToOne: Five
+  Loading: Loading
+  meditate: Meditation
+  moodtracker: Before
+  tones: Tones
+  exit: Menu 1 Exit
 --- !u!1 &770561767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1696,7 +1741,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1285636640}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: DiaryScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1285636640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2832,7 +2889,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1906185772}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: TonesScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1906185772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2952,7 +3021,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1963984361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: ExitScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1963984361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3341,7 +3422,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2046169903}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 646086683}
+        m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
+        m_MethodName: moodtrackerScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2046169903
 MonoBehaviour:
   m_ObjectHideFlags: 0

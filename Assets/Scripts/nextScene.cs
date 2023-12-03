@@ -10,6 +10,9 @@ public class nextScene : MonoBehaviour
     public string FiveToOne;
     public string Loading;
     public string meditate;
+    public string moodtracker;
+    public string tones;
+    public string exit;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,5 +48,20 @@ public class nextScene : MonoBehaviour
     {
 
         SceneManager.LoadScene(meditate);
+    }
+    public void TonesScene()
+    {
+
+        SceneManager.LoadScene(tones);
+    }
+    public void moodtrackerScene()
+    {
+
+        SceneManager.LoadScene(moodtracker);
+    }
+    public void ExitScene()
+    {
+
+        SceneManager.LoadScene(exit);
     }
 }
