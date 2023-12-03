@@ -544,8 +544,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1422054740}
-        m_TargetAssemblyTypeName: MainScreen, Assembly-CSharp
-        m_MethodName: MainScene
+        m_TargetAssemblyTypeName: nextMood, Assembly-CSharp
+        m_MethodName: MoodHome
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1482,10 +1482,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1422054735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd369c575f0d00142b493ff81a72bcdf, type: 3}
+  m_Script: {fileID: 11500000, guid: 55936e5d3c71460449913e170daff2a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainmenuScreen: Menu 1
+  moodHome: MoodTracker
+  moodbefore: Before
+  moodafter: After
+  back: Menu 1
 --- !u!1 &1464280591
 GameObject:
   m_ObjectHideFlags: 0

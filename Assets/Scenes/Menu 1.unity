@@ -1142,7 +1142,7 @@ MonoBehaviour:
   FiveToOne: Five
   Loading: Loading
   meditate: Meditation
-  moodtracker: Before
+  moodtracker: MoodTracker
   tones: Tones
   exit: Menu 1 Exit
 --- !u!1 &770561767
