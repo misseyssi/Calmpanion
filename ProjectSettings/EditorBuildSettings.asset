@@ -51,6 +51,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Diary&Memories.unity
     guid: aa6f462c46ea1734da616bc24541ea16
   - enabled: 1
+    path: Assets/Scenes/Mood Tracker/MoodTracker.unity
+    guid: 6da7fc59b93d36240bda74990cdedd43
+  - enabled: 1
     path: Assets/Scenes/Mood Tracker/Before.unity
     guid: 838c1a19cfc47514692b13de9c08d6a3
   - enabled: 1
