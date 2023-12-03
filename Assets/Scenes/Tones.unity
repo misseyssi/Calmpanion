@@ -2040,15 +2040,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 754527818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01af8a95cf59ab44aacc842e7a6fc590, type: 3}
+  m_Script: {fileID: 11500000, guid: bd369c575f0d00142b493ff81a72bcdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  five: five
-  four: four
-  three: three
-  two: two
-  one: one
-  menu: Menu 1
+  MainmenuScreen: Menu 1
 --- !u!1 &764692561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4166,8 +4161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 95, y: -132}
-  m_SizeDelta: {x: 32.326996, y: 40.57599}
+  m_AnchoredPosition: {x: 114, y: -112}
+  m_SizeDelta: {x: 75.4003, y: 73.6967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451266144
 MonoBehaviour:
@@ -4189,7 +4184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4b8944c2008483b42a9d07764d986c05, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d80b75694ca482e4f9704f75fe5bbf3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4252,8 +4247,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 754527823}
-        m_TargetAssemblyTypeName: NumberScene, Assembly-CSharp
-        m_MethodName: TwoScene
+        m_TargetAssemblyTypeName: MainScreen, Assembly-CSharp
+        m_MethodName: MainScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
