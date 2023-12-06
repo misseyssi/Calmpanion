@@ -545,7 +545,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00024414062, y: 2.9228833}
+  m_AnchoredPosition: {x: -0.00024414062, y: 2.9229126}
   m_SizeDelta: {x: 800, y: 1698.0629}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &148116165
@@ -935,7 +935,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000030517578}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 1733.3333}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &317620353
@@ -4887,6 +4887,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882579649}
   m_CullTransparentMesh: 1
+--- !u!1 &1894210053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1894210055}
+  - component: {fileID: 1894210054}
+  m_Layer: 0
+  m_Name: MoodExit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1894210054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894210053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2632229076f092244a75d6b53e6578b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moodPopup: {fileID: 188050, guid: b06f0e6c1dfa4356ac918da1bb32c603, type: 3}
+  happyButton: {fileID: 340961621}
+  calmButton: {fileID: 825586349}
+  sadButton: {fileID: 191349871}
+  angryButton: {fileID: 1993558975}
+  loveButton: {fileID: 772339483}
+  joyfulButton: {fileID: 1076260762}
+  doneButton: {fileID: 1617918353}
+--- !u!4 &1894210055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894210053}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -857.21356, y: 72.139984, z: -18.106041}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906185769
 GameObject:
   m_ObjectHideFlags: 0
@@ -5536,3 +5588,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1561671948}
   - {fileID: 1224570913}
+  - {fileID: 1894210055}
