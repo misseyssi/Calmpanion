@@ -2536,7 +2536,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1609933819}
-  - component: {fileID: 1609933818}
+  - component: {fileID: 1609933820}
+  - component: {fileID: 1609933821}
   m_Layer: 0
   m_Name: MoodTrackerManager
   m_TagString: Untagged
@@ -2544,19 +2545,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1609933818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609933817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23e2b7dd983677e419887f878ae1d8cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moodDisplay: {fileID: 1982287487}
 --- !u!4 &1609933819
 Transform:
   m_ObjectHideFlags: 0
@@ -2572,6 +2560,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1609933820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609933817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e2b7dd983677e419887f878ae1d8cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  historyTextBefore: {fileID: 0}
+  historyTextAfter: {fileID: 0}
+  happyButton: {fileID: 770561769}
+  calmButton: {fileID: 1091560410}
+  sadButton: {fileID: 1370990851}
+  angryButton: {fileID: 1993558975}
+  loveButton: {fileID: 1386758169}
+  joyfulButton: {fileID: 1076260762}
+--- !u!114 &1609933821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609933817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828ca6978205204abac864251650b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  historyTextBefore: {fileID: 0}
+  historyTextAfter: {fileID: 0}
 --- !u!1 &1816984282
 GameObject:
   m_ObjectHideFlags: 0

@@ -1109,7 +1109,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968857745}
-  - component: {fileID: 1968857744}
   - component: {fileID: 1968857743}
   m_Layer: 0
   m_Name: MoodTrackerManager
@@ -1130,19 +1129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66b92c31afa547c419728d72fb8321db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1968857744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968857742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ecd97313ac2b90449a80ef4dc00cf1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  historyDisplay: {fileID: 0}
 --- !u!4 &1968857745
 Transform:
   m_ObjectHideFlags: 0

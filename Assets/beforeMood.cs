@@ -1,33 +1,27 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
-public class MoodSelector : MonoBehaviour
+public class BeforeMoodTracker : MoodHistory
 {
-    public TextMeshProUGUI moodDisplay; // UI text to display the selected mood
-    private string selectedMood;
+    [SerializeField] private Button happyButton;
+    [SerializeField] private Button calmButton;
+    [SerializeField] private Button sadButton;
+    [SerializeField] private Button angryButton;
+    [SerializeField] private Button loveButton;
+    [SerializeField] private Button joyfulButton;
 
-    // Call this method when a mood button is clicked
-    public void OnMoodButtonClick(string mood)
+    private void Start()
     {
-        selectedMood = mood;
-        UpdateMoodDisplay();
-        SaveMoodToHistory();
+        happyButton.onClick.AddListener(() => TrackMood("Happy", "Before"));
+        calmButton.onClick.AddListener(() => TrackMood("Calm", "Before"));
+        sadButton.onClick.AddListener(() => TrackMood("Sad", "Before"));
+        angryButton.onClick.AddListener(() => TrackMood("Angry", "Before"));
+        loveButton.onClick.AddListener(() => TrackMood("Love", "Before"));
+        joyfulButton.onClick.AddListener(() => TrackMood("Joyful", "Before"));
     }
 
-    private void UpdateMoodDisplay()
+    private void TrackMood(string mood, string tab)
     {
-        if (moodDisplay != null)
-        {
-            moodDisplay.text = "Selected Mood: " + selectedMood;
-        }
-    }
-
-    private void SaveMoodToHistory()
-    {
-        // Save the selected mood to history or before tab
-        PlayerPrefs.SetString("HistoryMood", selectedMood);
-        PlayerPrefs.Save();
+        SaveMoodToHistory(mood, tab);
     }
 }

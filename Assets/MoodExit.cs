@@ -1,48 +1,41 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
 
-public class MoodPopup : MonoBehaviour
+public class AfterMoodTracker : MoodHistory
 {
-    [SerializeField] private GameObject moodPopup;
-    [SerializeField] private Button happyButton, calmButton, sadButton, angryButton, loveButton, joyfulButton;
+    [SerializeField] private Button happyButton;
+    [SerializeField] private Button calmButton;
+    [SerializeField] private Button sadButton;
+    [SerializeField] private Button angryButton;
+    [SerializeField] private Button loveButton;
+    [SerializeField] private Button joyfulButton;
     [SerializeField] private Button doneButton;
-
-    private string selectedMood;
 
     private void Start()
     {
-        happyButton.onClick.AddListener(() => SetSelectedMood("Happy"));
-        calmButton.onClick.AddListener(() => SetSelectedMood("Calm"));
-        sadButton.onClick.AddListener(() => SetSelectedMood("Sad"));
-        angryButton.onClick.AddListener(() => SetSelectedMood("Angry"));
-        loveButton.onClick.AddListener(() => SetSelectedMood("Love"));
-        joyfulButton.onClick.AddListener(() => SetSelectedMood("Joyful"));
-
-        doneButton.onClick.AddListener(ExitWithMood);
+        happyButton.onClick.AddListener(() => TrackMood("Happy", "After"));
+        calmButton.onClick.AddListener(() => TrackMood("Calm", "After"));
+        sadButton.onClick.AddListener(() => TrackMood("Sad", "After"));
+        angryButton.onClick.AddListener(() => TrackMood("Angry", "After"));
+        loveButton.onClick.AddListener(() => TrackMood("Love", "After"));
+        joyfulButton.onClick.AddListener(() => TrackMood("Joyful", "After"));
+        doneButton.onClick.AddListener(ExitApplication);
     }
 
-    public void ShowMoodPopup()
+    private void TrackMood(string mood, string tab)
     {
-        moodPopup.SetActive(true);
+        SaveMoodToHistory(mood, tab);
     }
 
-    private void SetSelectedMood(string mood)
+    private void ExitApplication()
     {
-        selectedMood = mood;
-    }
+        Debug.Log("Exiting the application.");
 
-    private void ExitWithMood()
-    {
-        if (!string.IsNullOrEmpty(selectedMood))
-        {
-
-            Debug.Log("Selected Mood: " + selectedMood);
-        }
-
-        // Close the app
-        Application.Quit();
+        // For Android
+#if UNITY_ANDROID
+            AndroidJavaObject activity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity");
+            activity.Call<bool>("moveTaskToBack", true);
+#endif
     }
 }
+

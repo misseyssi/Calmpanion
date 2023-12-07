@@ -4498,7 +4498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17400b41f6415244091136ce2ac344e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quoteText: {fileID: 0}
 --- !u!1 &1850324553
 GameObject:
   m_ObjectHideFlags: 0
@@ -4897,6 +4896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1894210055}
   - component: {fileID: 1894210054}
+  - component: {fileID: 1894210056}
   m_Layer: 0
   m_Name: MoodExit
   m_TagString: Untagged
@@ -4916,12 +4916,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2632229076f092244a75d6b53e6578b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moodPopup: {fileID: 188050, guid: b06f0e6c1dfa4356ac918da1bb32c603, type: 3}
-  happyButton: {fileID: 340961621}
-  calmButton: {fileID: 825586349}
-  sadButton: {fileID: 191349871}
+  historyTextBefore: {fileID: 0}
+  historyTextAfter: {fileID: 0}
+  happyButton: {fileID: 770561769}
+  calmButton: {fileID: 1091560410}
+  sadButton: {fileID: 1370990851}
   angryButton: {fileID: 1993558975}
-  loveButton: {fileID: 772339483}
+  loveButton: {fileID: 1386758169}
   joyfulButton: {fileID: 1076260762}
   doneButton: {fileID: 1617918353}
 --- !u!4 &1894210055
@@ -4939,6 +4940,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1894210056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894210053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2828ca6978205204abac864251650b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  historyTextBefore: {fileID: 0}
+  historyTextAfter: {fileID: 0}
 --- !u!1 &1906185769
 GameObject:
   m_ObjectHideFlags: 0
