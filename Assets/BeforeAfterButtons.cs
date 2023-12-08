@@ -10,7 +10,8 @@ public class MoodButton : MonoBehaviour
        
         moodText = GetComponent<Text>();
 
-        Button beforeButton = GameObject.Find("BeforeButton").GetComponent<Button>();
+        Button button = GameObject.Find("BeforeButton").GetComponent<Button>();
+        Button beforeButton = button;
         Button afterButton = GameObject.Find("AfterButton").GetComponent<Button>();
         Button exitButton = GameObject.Find("ExitButton").GetComponent<Button>();
 
