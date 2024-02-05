@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/AppLockScene.unity
+    guid: aa893d36c68c1d14cb887c9890c409dc
   - enabled: 0
     path: Assets/Scenes/Box breathing.unity
     guid: 4eacb64d7b31fb2439e63f041b844114

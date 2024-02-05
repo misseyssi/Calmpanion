@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class nextScene : MonoBehaviour
 {
+    public string applockScene;
     public string menu1;
     public string Diary;
     public string FiveToOne;
@@ -24,6 +25,12 @@ public class nextScene : MonoBehaviour
     {
         
     }
+
+public void AppLockScene()
+{
+    SceneManager.LoadScene(applockScene);
+}
+
     public void MenuScene()
     {
         SceneManager.LoadScene(menu1);
