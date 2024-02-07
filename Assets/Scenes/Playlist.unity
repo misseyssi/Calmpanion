@@ -703,10 +703,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 81ce85bc6583240aa9c003b0081ff16f, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 754527824}
+        m_TargetAssemblyTypeName: Tones1Button, Assembly-CSharp
+        m_MethodName: Tones1Scene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1097,6 +1097,8 @@ GameObject:
   - component: {fileID: 754527820}
   - component: {fileID: 754527819}
   - component: {fileID: 754527823}
+  - component: {fileID: 754527824}
+  - component: {fileID: 754527825}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1204,6 +1206,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainmenuScreen: Menu 1
+--- !u!114 &754527824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754527818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71022f00bf8ac4e9780be7b92a253861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tones1: Tones 1
+--- !u!114 &754527825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754527818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 173ae95d8469f4ebfab8177a19236b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tones2: Tones 2
 --- !u!1 &788968131
 GameObject:
   m_ObjectHideFlags: 0
@@ -2484,7 +2512,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1804556461}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 754527825}
+        m_TargetAssemblyTypeName: Tones2Button, Assembly-CSharp
+        m_MethodName: Tones2Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1874484794
 GameObject:
   m_ObjectHideFlags: 0
