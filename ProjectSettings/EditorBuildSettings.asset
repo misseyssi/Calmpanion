@@ -72,9 +72,36 @@ EditorBuildSettings:
     path: Assets/Scenes/NIGHT MODE/MeditationDARK.unity
     guid: 4ae1c3d8dc4abd54da20bc976177fe51
   - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/ExitDARK.unity
+    guid: 9cafe3a7c4c58f9459ffafb86f79f68b
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/5-4-3-2-1 DARK/FiveDARK.unity
+    guid: f96f683f6057d794ca5ae36a0259f2a4
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/5-4-3-2-1 DARK/fourDARK.unity
+    guid: 19bc0903381edf74eb791f2c39fd3eb7
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/5-4-3-2-1 DARK/threeDARK.unity
+    guid: ec2b6a81bd9eed24eb87c2d07f458ad7
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/5-4-3-2-1 DARK/twoDARK.unity
+    guid: 2e0c389260567ba4d8b17a1dfee257c6
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/5-4-3-2-1 DARK/oneDARK.unity
+    guid: 5f22f57157ad11d439e72150bcf75c3a
+  - enabled: 1
     path: Assets/Scenes/NIGHT MODE/DiaryDARK.unity
     guid: ddeee0d6519f3704abab0ee190b92bde
   - enabled: 1
-    path: Assets/Scenes/NIGHT MODE/ExitDARK.unity
-    guid: 9cafe3a7c4c58f9459ffafb86f79f68b
+    path: Assets/Scenes/NIGHT MODE/TonesDARK.unity
+    guid: dac3fc82c52ee1d43bb260bfa08a7c11
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKMOOD/AfterDARK.unity
+    guid: 249bcc6cff0f98044be9f6d745e8d90c
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKMOOD/BeforeDARK.unity
+    guid: 7e72345fdfa332d4ab7ac4cf254f2407
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKMOOD/MoodTrackerDARK.unity
+    guid: d4cfcd96c76ea7a48a97ccc674fdfff5
   m_configObjects: {}

@@ -1274,14 +1274,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applockScene: 
   menu1: Menu 1
-  Diary: Diary&Memories
-  FiveToOne: Five
+  Diary: DiaryDARK
+  FiveToOne: FiveDARK
   Loading: Loading
-  meditate: Meditation
-  moodtracker: MoodTracker
-  tones: Tones
-  exit: Menu 1 Exit
-  darkMenu: 
+  meditate: MeditationDARK
+  moodtracker: MoodTrackerDARK
+  tones: TonesDARK
+  exit: ExitDARK
+  darkMenu: MenuDARK
 --- !u!1 &770561767
 GameObject:
   m_ObjectHideFlags: 0
