@@ -5,10 +5,10 @@ using UnityEngine;
 public class CalmNatureN6 : MonoBehaviour
 {
     public AudioSource CalmNatureSound;
-    // Use this for initialization
+    
     void Start()
     {
-        //so it doesn't play automatically
+        
         CalmNatureSound.Pause();
     }
 
@@ -16,12 +16,12 @@ public class CalmNatureN6 : MonoBehaviour
     {
         if (CalmNatureSound.isPlaying)
         {
-            // If the audio is currently playing, stop it
+            
             CalmNatureSound.Stop();
         }
         else
         {
-            // If the audio is not playing, start it
+            
             CalmNatureSound.Play();
         }
     }

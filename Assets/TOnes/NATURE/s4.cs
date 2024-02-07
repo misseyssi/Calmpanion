@@ -2,28 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class circle : MonoBehaviour
+public class white : MonoBehaviour
 {
-    public AudioSource circleSound;
+    public AudioSource whiteSound;
 
-    // Use this for initialization
+  
     void Start()
     {
-        //so it doesn't play automatically
-        circleSound.Pause();
+      
+        whiteSound.Pause();
     }
 
-    public void circleffects()
+    public void whiteeffects()
     {
-        if (circleSound.isPlaying)
+        if (whiteSound.isPlaying)
         {
-            // If the audio is currently playing, stop it
-            circleSound.Stop();
+            whiteSound.Stop();
         }
         else
         {
-            // If the audio is not playing, start it
-            circleSound.Play();
+            
+            whiteSound.Play();
         }
     }
     public void OtherButtonEffects()

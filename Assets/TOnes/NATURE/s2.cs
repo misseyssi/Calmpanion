@@ -2,27 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Star : MonoBehaviour
+public class nature : MonoBehaviour
 {
-    public AudioSource StarSound;
-    // Use this for initialization
+    public AudioSource natureSound;
+    
     void Start()
     {
-        //so it doesn't play automatically
-        StarSound.Pause();
+       
+        natureSound.Pause();
     }
 
-    public void stareffects()
+    public void natureffects()
     {
-        if (StarSound.isPlaying)
+        if (natureSound.isPlaying)
         {
-            // If the audio is currently playing, stop it
-            StarSound.Stop();
+          
+            natureSound.Stop();
         }
         else
         {
-            // If the audio is not playing, start it
-            StarSound.Play();
+            
+            natureSound.Play();
         }
     }
     public void OtherButtonEffects()

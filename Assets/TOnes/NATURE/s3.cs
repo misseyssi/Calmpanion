@@ -2,27 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class yawn : MonoBehaviour
+public class wave : MonoBehaviour
 
 {
-    public AudioSource yawnSound;
+    public AudioSource waveSound;
     void Start()
     {
-        // so it doesn't play automatically
-        yawnSound.Pause();
+        
+        waveSound.Pause();
     }
 
-    public void yawnffects()
+    public void waveffects()
     {
-        if (yawnSound.isPlaying)
+        if (waveSound.isPlaying)
         {
-            // If the audio is currently playing, stop it
-            yawnSound.Stop();
+          
+            waveSound.Stop();
         }
         else
         {
-            // If the audio is not playing, start it
-            yawnSound.Play();
+            
+            waveSound.Play();
         }
     }
 

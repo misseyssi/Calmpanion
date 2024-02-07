@@ -2,28 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DuyanButton : MonoBehaviour
+public class CalmRainButton : MonoBehaviour
 {
-    public AudioSource duyanSound;
+    public AudioSource CalmRainSound;
 
-    // Use this for initialization
+  
     void Start()
     {
-        //so it doesn't play automatically
-        duyanSound.Pause();
+   
+        CalmRainSound.Pause();
     }
 
-    public void duyanEffects()
+    public void CalmRainEffects()
     {
-        if (duyanSound.isPlaying)
+        if (CalmRainSound.isPlaying)
         {
-            // If the audio is currently playing, stop it
-            duyanSound.Stop();
+            CalmRainSound.Stop();
         }
         else
         {
-            // If the audio is not playing, start it
-            duyanSound.Play();
+            
+            CalmRainSound.Play();
         }
     }
     public void OtherButtonEffects()
