@@ -2,28 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class s5 : MonoBehaviour
+public class BirdNature : MonoBehaviour
 {
-    public AudioSource sonataSound;
+    public AudioSource BirdNatureSound;
 
     // Use this for initialization
     void Start()
     {
         //so it doesn't play automatically
-        sonataSound.Pause();
+        BirdNatureSound.Pause();
     }
 
-    public void sonataffects()
+    public void BirdNatureffects()
     {
-        if (sonataSound.isPlaying)
+        if (BirdNatureSound.isPlaying)
         {
             // If the audio is currently playing, stop it
-            sonataSound.Stop();
+            BirdNatureSound.Stop();
         }
         else
         {
             // If the audio is not playing, start it
-            sonataSound.Play();
+            BirdNatureSound.Play();
         }
     }
     public void OtherButtonEffects()

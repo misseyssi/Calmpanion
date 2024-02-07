@@ -2,27 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class s6 : MonoBehaviour
+public class CalmNatureN6 : MonoBehaviour
 {
-    public AudioSource dreamlandSound;
+    public AudioSource CalmNatureSound;
     // Use this for initialization
     void Start()
     {
         //so it doesn't play automatically
-        dreamlandSound.Pause();
+        CalmNatureSound.Pause();
     }
 
-    public void dreamlandffects()
+    public void CalmNatureffects()
     {
-        if (dreamlandSound.isPlaying)
+        if (CalmNatureSound.isPlaying)
         {
             // If the audio is currently playing, stop it
-            dreamlandSound.Stop();
+            CalmNatureSound.Stop();
         }
         else
         {
             // If the audio is not playing, start it
-            dreamlandSound.Play();
+            CalmNatureSound.Play();
         }
     }
     public void OtherButtonEffects()

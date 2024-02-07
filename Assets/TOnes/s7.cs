@@ -1,28 +1,28 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class WeAreButton : MonoBehaviour
+public class SummerN7 : MonoBehaviour
 {
-    public AudioSource WeAreSound;
+    public AudioSource RemSummer;
 
     // Use this for initialization
     void Start()
     {
         //so it doesn't play automatically
-        WeAreSound.Pause();
+        RemSummer.Pause();
     }
 
-    public void WeAreffects()
+    public void RemSummerffects()
     {
-        if (WeAreSound.isPlaying)
+        if (RemSummer.isPlaying)
         {
             // If the audio is currently playing, stop it
-            WeAreSound.Stop();
+            RemSummer.Stop();
         }
         else
         {
             // If the audio is not playing, start it
-            WeAreSound.Play();
+            RemSummer.Play();
         }
     }
     public void OtherButtonEffects()

@@ -2,28 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DontWannaCry : MonoBehaviour
+public class waterN8 : MonoBehaviour
 {
-    public AudioSource dWCSound;
+    public AudioSource WaterSound;
 
     // Use this for initialization
     void Start()
     {
         //so it doesn't play automatically
-        dWCSound.Pause();
+        WaterSound.Pause();
     }
 
-    public void dWCEffects()
+    public void WaterEffects()
     {
-        if (dWCSound.isPlaying)
+        if (WaterSound.isPlaying)
         {
             // If the audio is currently playing, stop it
-            dWCSound.Stop();
+            WaterSound.Stop();
         }
         else
         {
             // If the audio is not playing, start it
-            dWCSound.Play();
+            WaterSound.Play();
         }
     }
     public void OtherButtonEffects()
