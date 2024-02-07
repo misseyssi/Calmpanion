@@ -1145,7 +1145,7 @@ MonoBehaviour:
   Loading: Loading
   meditate: Meditation
   moodtracker: MoodTracker
-  tones: Tones
+  Playlist: Playlist
   exit: Menu 1 Exit
   darkMenu: MenuDARK
 --- !u!1 &770561767
@@ -2953,7 +2953,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 646086683}
         m_TargetAssemblyTypeName: nextScene, Assembly-CSharp
-        m_MethodName: TonesScene
+        m_MethodName: playlistScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

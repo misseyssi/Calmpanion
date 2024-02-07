@@ -12,7 +12,7 @@ public class nextScene : MonoBehaviour
     public string Loading;
     public string meditate;
     public string moodtracker;
-    public string tones;
+    public string Playlist;
     public string exit;
     public string darkMenu;
     // Start is called before the first frame update
@@ -57,10 +57,10 @@ public void AppLockScene()
 
         SceneManager.LoadScene(meditate);
     }
-    public void TonesScene()
+    public void playlistScene()
     {
 
-        SceneManager.LoadScene(tones);
+        SceneManager.LoadScene(Playlist);
     }
     public void moodtrackerScene()
     {
