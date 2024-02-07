@@ -14,6 +14,7 @@ public class nextScene : MonoBehaviour
     public string moodtracker;
     public string tones;
     public string exit;
+    public string darkMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -70,5 +71,10 @@ public void AppLockScene()
     {
 
         SceneManager.LoadScene(exit);
+    }
+    public void DarkMenuScene()
+    {
+
+        SceneManager.LoadScene(darkMenu);
     }
 }
