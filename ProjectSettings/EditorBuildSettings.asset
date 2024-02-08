@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Meditation.unity
     guid: 403b0d55022320f4daf8a823591b04e9
+  - enabled: 1
+    path: Assets/Scenes/Diary and Memories.unity
+    guid: 273ff8a1d1053b9449f9b31652f4474b
   - enabled: 0
     path: Assets/Scenes/Memories DI maayos ver..unity
     guid: 9a62004260a0a57499805a8dd8ad7bf6
@@ -59,7 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/5-4-3-2-1/one.unity
     guid: 91e6ead8d60baf046b42dafbb141a4d2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Diary&Memories.unity
     guid: aa6f462c46ea1734da616bc24541ea16
   - enabled: 1
