@@ -1279,7 +1279,7 @@ MonoBehaviour:
   Loading: Loading
   meditate: MeditationDARK
   moodtracker: MoodTrackerDARK
-  tones: TonesDARK
+  Playlist: PlaylistDARK
   exit: ExitDARK
   darkMenu: MenuDARK
 --- !u!1 &770561767

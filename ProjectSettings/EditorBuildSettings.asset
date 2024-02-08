@@ -36,13 +36,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Tones.unity
     guid: 9a2a1a40a098e6f4faac33a63a295ad1
   - enabled: 1
-    path: Assets/Scenes/Playlist.unity
+    path: Assets/Scenes/playlist folder/Playlist.unity
     guid: e6e6961b6be364fd0a25d9094ae8c8b3
   - enabled: 1
-    path: Assets/Scenes/Tones 1.unity
+    path: Assets/Scenes/playlist folder/Tones 1.unity
     guid: 794edc08853214d338472a37bfa6869f
   - enabled: 1
-    path: Assets/Scenes/Tones 2.unity
+    path: Assets/Scenes/playlist folder/Tones 2.unity
     guid: 5a15f3291346d40c0b2600e3c2bddfef
   - enabled: 1
     path: Assets/Scenes/Menu 1.unity
@@ -116,4 +116,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NIGHT MODE/DARKMOOD/MoodTrackerDARK.unity
     guid: d4cfcd96c76ea7a48a97ccc674fdfff5
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKPlaylist folder/PlaylistDARK.unity
+    guid: c0c543869e65d7e4f8db8e5261e3eb90
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKPlaylist folder/Tones 1DARK.unity
+    guid: b4bc698b457fba547b2bf17381122f32
+  - enabled: 1
+    path: Assets/Scenes/NIGHT MODE/DARKPlaylist folder/Tones 2DARK.unity
+    guid: f5bb9d14edb7ae247b3c4fe116200dc8
   m_configObjects: {}
