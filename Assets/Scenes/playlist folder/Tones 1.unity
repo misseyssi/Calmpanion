@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd369c575f0d00142b493ff81a72bcdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MainmenuScreen: Menu 1
+  MainmenuScreen: Playlist
 --- !u!1 &764692561
 GameObject:
   m_ObjectHideFlags: 0
